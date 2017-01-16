@@ -1,0 +1,17 @@
+import pathlib
+
+token           = ""
+token_secret    = ""
+consumer_key    = ""
+consumer_secret = ""
+
+magic_word      = "shawoo"
+
+db_file         = "sqlite:///database.db"
+cache_folder    = "./resources"
+config_folder   = "./configs"
+programs_folder = ""
+
+cache_pwd = pathlib.Path(cache_folder).resolve()
+config_pwd = pathlib.Path(config_folder).resolve()
+programs_pwd = pathlib.Path(programs_folder).resolve()

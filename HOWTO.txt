@@ -1,0 +1,12 @@
+Just send a tweet with:
+1) @wojciech_jab mention
+2) "shawoo" magic word
+3) attached picture
+4) one of filter names: hilbert, voronoi, abstract_voronoi, enhance, black_and_white
+5) wait up to 5 minutes for the results!
+
+An example:
+"@wojciech_jab shawoo voronoi" (an image attached)
+
+
+/* http://pastebin.com/2GcrLDWN */

@@ -1,0 +1,10 @@
+__pycache__
+activate
+configs
+database.db
+log.txt
+pid.txt
+resources
+settings.py
+*.sublime*
+venv/
