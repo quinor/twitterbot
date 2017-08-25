@@ -44,8 +44,8 @@ class TweetProcessor:
       if filter_name in commands:
         command = commands[filter_name]
 
-    os.system("jpegtran {} >tmp.jpg".format(src_path))
-    os.system("mv tmp.jpg {}".format(src_path))
+    os.system("convert {} tmp.jpg".format(src_path))
+    os.system("jpegtran tmp.jpg >{}".format(src_path))
     print("{} {} {}".format(command, src_path, tgt_path))
     os.system("{} {} {}".format(command, src_path, tgt_path))
 

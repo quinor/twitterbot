@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+source ./activate
 if [ -f ./pid.txt ]; then
   echo "pidfile.txt exists!"
 else
